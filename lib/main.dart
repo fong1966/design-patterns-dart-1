@@ -21,7 +21,11 @@ class MyApp extends StatelessWidget {
           color: Colors.white,
         ),
       ),
-      initialRoute: '/state/manipulator_state',
+      // initialRoute: '/state/manipulator_state',
+      // initialRoute: '/abstract_factory/tool_panel_factory',
+      // initialRoute: '/memento/flutter_memento_editor',
+      // initialRoute: '/adapter/flutter_adapter',
+      initialRoute: '/observer/subscriber_flutter_widget',
       routes: {
         '/observer/subscriber_flutter_widget': (_) => SubscriberFlutterApp(),
         '/adapter/flutter_adapter': (_) => FlutterAdapterApp(),
